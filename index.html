@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>REMAKE - Film and Media Studies Program | Wahington University in St. Louis</title>
+    <title>Film and Media Studies Program | Wahington University in St. Louis</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,65 +20,219 @@
     <![endif]-->
 
     <!-- navbar -->
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">WUSTL Film and Media Studies</a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://tturan.github.io/wustlFMS/#">WUSTL Film and Media Studies</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us/index.html">About WUSTL FMS </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/undergraduate">Undergraduate Studies </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/graduate">Graduate Program </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/courses">Courses </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/events">Events </a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://fms.artsci.wustl.edu/people/faculty">Core Faculty </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/people/affiliated-faculty">Affiliated Faculty </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/people/adjunct-faculty">Adjunct Faculty </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/people/post-docs">Post-Doc Fellow </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/people/staff">Staff </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://fms.artsci.wustl.edu/people/graduate-certificate">Graduate Certificate </a></li>
+              </ul>
+            </li>
+
+              <li><a href="https://fms.artsci.wustl.edu/resources">Resources </a></li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          </div>
+          <a class="btn btn-default btn-lg" href="https://fms.artsci.wustl.edu/files/fms/imce/guidebook-sp16.pdf" role="button" target="_blank">Spring 2016 FMS Guidebook</br><span class="glyphicon glyphicon-file" aria-hidden="true"></span></a>
+        </div>
+      </div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Academic <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">About US</a></li>
-            <li><a href="#">Undergraduate Studies</a></li>
-            <li><a href="#">Graduate Program</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  </head>
-  <body>
-    <div class="page-header">
-      <h1>Example page header <small>Subtext for header</small></h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a class="main" href="https://fms.artsci.wustl.edu/about"><h1>Film and Media Studies examines a vitally important aspect of visual culture in the 20th and 21st centuries, namely the development of film, television, radio, and other electronic media as aesthetic and cultural forms. Like other areas of learning, the study of different film and media is broken down into more specific domains.</h1></a>
+        </div> <!-- col -->
+      </div>
     </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <a class="main" href="https://fms.artsci.wustl.edu/news"><h2><b>NEWS</b></h2></a>
+          <div class="row">
+            <div class="col-md-10">
+            <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10">
+              <p><small>February 26, 2016</small></p>
+              <a href="https://cenhum.artsci.wustl.edu/features/Michelle-Kelley-Debating-Diversity-at-the-Oscars" target="_blank"><h4>All Academy Members Matter? Debating Diversity at the Oscars</h4></a>
+              <p>Michelle Kelley, Post-Doctoral Teaching Fellow in the Film and Media Studies Program, wrote for the <a href="https://cenhum.artsci.wustl.edu" target="_blank"><i>Center for the Humanities</i></a>.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-10">
+              <p><small>January 7, 2016</small></p>
+              <a href="https://colinatthemovies.wordpress.com/2016/01/06/does-star-wars-the-force-awakens-plagiarize-the-originals-no-just-look-at-the-plot-structure/" target="_blank"><h4>Does Star Wars: The Force Awakens “Plagiarize” the Originals? No. Just Look at the Plot Structure.</h4></a>
+              <p>FMS professor Colin Burnett looks at the ending of The Force Awakens to debunk the notion that the latest film in the Star Wars franchise has little new to offer fans.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-10">
+                <p><small>October 28, 2015</small></p>
+              <a href="http://cenhum.artsci.wustl.edu/features/Diane-Lewis-Pordenone-Film-Festival" target="_blank"><h4>The Pordenone Silent Film Festival: An Exuberant Global Survey of Silent Film</h4></a>
+              <p>Film scholar Diane Lewis gives us a glimpse of the festival, which she attended in early October</p>
+            </div>
+          </div>
+        </div>
+
+        <!--books-->
+        <div class="col-md-6">
+          <a class="main" href="https://fms.artsci.wustl.edu/books"><h2><b>FACULTY BOOKS</b></h2></a>
+          <div class="row">
+            <div class="col-md-10">
+            <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10">
+              <div class="media">
+                <div class="media-body">
+                  <a href="http://cup.columbia.edu/book/when-movies-were-theater/9780231176576" target="_blank"><h4 class="media-heading">When Movies Were Theater</h4></a>
+                  <p>William Paul</p>
+                  <div class="col-md-12">
+                  <p>There was a time when seeing a movie meant more than seeing a film. The theater itself shaped the very perception of events onscreen.</p>
+                  <p><i>Forthcoming from Columbia University Press, May 2016</i><p>
+                  </div>
+                </div>
+                <div class="media-right media-middle">
+                  <a href="#">
+                    <img class="media-object" src="img/paul.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-10">
+              <div class="media">
+                <div class="media-body">
+                  <a href="http://www.wsupress.wayne.edu/books/detail/have-gun—will-travel" target="_blank"><h4 class="media-heading">Have Gun — Will Travel</h4></a>
+                  <p>Gaylyn Studlar</p>
+                  <div class="col-md-12">
+                    <p>One of the most successful series of its time, Have Gun—Will Travel became a cultural phenomenon in the late 1950s and made its star, Richard Boone, a nationwide celebrity... <br><a href="#"><small><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></small>Read More</a><p>
+                  </div>
+                </div>
+                <div class="media-right media-middle">
+                  <a href="#">
+                    <img class="media-object" src="img/gaylyn-1.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-10">
+              <div class="media">
+                <div class="media-body">
+                  <a href="http://www.ucpress.edu/book.php?isbn=9780520274242" target="_blank"><h4 class="media-heading">Precocious Charms Stars Performing Girlhood in Hollywood</h4></a>
+                  <p>Gaylyn Studlar</p>
+                  <div class="col-md-12">
+                    <p>In Precocious Charms, Gaylyn Studlar examines how Hollywood defined and constructed female stars as especially young—as juvenated—during its long half century as the most influential and popular media influence on America’s cultural imagination... <br><a href="#"><small><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></small>Read More</a><p>
+                  </div>
+                </div>
+                <div class="media-right media-middle">
+                  <a href="#">
+                    <img class="media-object" src="img/gaylyn-2.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="cold-md-12">
+
+
+
+
+    </div>
+
+
+
 
       <footer class="site-footer">
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="cold-md-12">
+              <p><small>Film And Media Studies | Washington University in St. Louis | One Brookings Drive, St. Louis, MO 63130-4899 | <a href="mailto:fms@wustl.edu?Subject=Hello" target="_top">fms@wustl.edu</a></small></p>
+
       </footer>
 
     </section>

@@ -1,0 +1,42 @@
+.jumbotron{
+
+  padding: 400px;
+  background-image:url(../img/home-original.jpg);
+}
+
+a{
+  color:#900;
+}
+a.main{
+  color:#444;
+}
+
+a:hover {
+  color: #900;
+  text-decoration: none;
+}
+
+div.section{
+  background-color: #ccc;
+}
+
+.carousel-caption h1{
+  font-size: 150px;
+  color:#ccc;
+}
+
+.glyphicon.glyphicon-scissors {
+    font-size: 75px;
+    align-self: center;
+}
+
+.glyphicon.glyphicon-search {
+    font-size: 75px;
+    align-self: center;
+}
+.glyphicon.glyphicon-duplicate {
+    font-size: 75px;
+}
+.glyphicon.glyphicon-comment {
+    font-size: 75px;
+}
